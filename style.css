@@ -19,6 +19,19 @@ nav{
     align-items: center;
     justify-content: space-between;
     font-family:inter;
+    position: relative;
+}
+.right-star{
+    position: absolute;
+    width: 60px;
+    top: 20px;
+    right: -100px;
+}
+.left-star{
+    position: absolute;
+    width: 40px;
+    left: -80px;
+    top: 50px;
 }
 .nav-part1{
    display: flex;
@@ -52,4 +65,85 @@ nav{
     color: white;
     border-radius: 5px;
     border: none;
+}
+
+
+.page1{
+    width: 100%;
+    height: 100vh;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 10%;
+}
+.left-page1 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.top-left-page1 {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+    position: relative;
+}
+.circle{
+    position: absolute;
+    top: -20%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    width: 400px;
+    z-index: -1;
+}
+.top-left-page1 h1{
+    font-size: 3.5vw;
+    text-transform: capitalize;
+    font-family: inter;
+}
+.top-left-page1 p{
+    font-size: 1vw;
+    text-transform: capitalize;
+    font-family: inter;
+    padding: 2vw 0;
+}
+.top-left-page1 button{
+    padding: 1vw 1.5vw;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+}
+.top-left-page1 button img{
+    width: 1.8vw;
+    margin-left: 1vw;
+}
+.page1-btn{
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+.top-left-page1 a{
+    padding: 1vw 1.8vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    border-radius: 5px;
+}
+.top-left-page1 a img{
+    width: 1.8vw;
+}
+.bottom-left-page1 {
+    width: 100%;
+    height: 50%;
+    border: 1px solid black;
+}
+
+.bottom-left-page1 img{
+    width: 100%;
+}
+.right-page1 {
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
 }
