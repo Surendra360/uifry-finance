@@ -80,12 +80,12 @@ nav{
 .left-page1 {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 .top-left-page1 {
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
     position: relative;
 }
 .circle{
@@ -136,7 +136,7 @@ nav{
 .bottom-left-page1 {
     width: 100%;
     height: 50%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
 }
 
 .bottom-left-page1 img{
@@ -145,5 +145,54 @@ nav{
 .right-page1 {
     width: 50%;
     height: 100%;
-    border: 1px solid black;
+    /* border: 1px solid black; */
+    display: flex;
+    align-items: center;
+    justify-content: left;
+}
+
+.right-page1 .m1{
+    width: 100%;
+    /* height: 100%; */
+    object-fit: cover;
+}
+
+
+.page2{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5% 10%;
+    font-family:inter;
+}
+
+.left-page2 {
+    width: 50%;
+    position: relative;
+}
+.p2-star {
+    width: 5%;
+}
+.m2 {
+    width: 100%;
+}
+.p2-grdiant {
+    width: 50%;
+    z-index: -1;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% -50%);
+
+}
+
+
+.right-page2 {
+    width: 50%;
+}
+.p2-heading {
+}
+.p2-list {
 }
